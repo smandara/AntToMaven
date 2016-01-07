@@ -1,0 +1,21 @@
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-12-17 12:21:20
+project --topLevelPackage com.infy --projectName AntToMaven --java 7 --packaging JAR
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-12-17 12:21:22
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-12-17 12:21:26
+persistence setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE 
+entity jpa --class com.infy.entities.AntDirectory
+field string --class ~.entities.AntDirectory --fieldName folderPath --notNull 
+field string --class ~.entities.AntDirectory --fieldName configSRC --notNull 
+field string --class ~.entities.AntDirectory --fieldName configLib --notNull 
+field string --class ~.entities.AntDirectory --fieldName configTestpath --notNull 
+field string --class ~.entities.AntDirectory --fieldName artifactId 
+field string --class ~.entities.AntDirectory --fieldName groupId
+field string --class ~.entities.AntDirectory --fieldName versionId 
+field string --class ~.entities.AntDirectory --fieldName configWebSrc --notNull 
+controller all --package com.infy.controllers
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-12-18 17:53:32
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-12-24 10:40:33
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-12-24 16:28:02
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-12-28 15:24:56
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-12-31 13:09:53
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2016-01-01 16:35:09

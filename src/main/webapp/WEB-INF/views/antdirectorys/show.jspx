@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_infy_entities_AntDirectory" object="${antdirectory}" path="/antdirectorys" z="qa503RMDAVb+QVaPSyP5SD1Lryg=">
+        <field:display field="folderPath" id="s_com_infy_entities_AntDirectory_folderPath" object="${antdirectory}" z="2QFa5+bHN3Yj++rxASdx7dcipt0="/>
+        <br/>
+        <field:display field="configSRC" id="s_com_infy_entities_AntDirectory_configSRC" object="${antdirectory}" z="lZ3RMSaCgTLwJrQUvexHwJsFYw8="/>
+       <br/>
+        <field:display field="configLib" id="s_com_infy_entities_AntDirectory_configLib" object="${antdirectory}" z="F2FPM/wvjMU3HBp/BYt7wDXihhs="/>
+          <br/>
+        <field:display field="configTestpath" id="s_com_infy_entities_AntDirectory_configTestpath" object="${antdirectory}" z="bhNYw9lzL1IcNWxmw5VLY8yvv0E="/>
+        <br/>
+        <field:display field="configWebSrc" id="s_com_infy_entities_AntDirectory_configWebSrc" object="${antdirectory}" z="cjJSxhJIa9XwV3mR5huAR2mW458="/>
+          <br/>
+        <field:display field="artifactId" render="false" id="s_com_infy_entities_AntDirectory_artifactId" object="${antdirectory}" z="bBHHvXqWWFjhsf7DVYfM78IPK4k="/>
+        <field:display field="groupId" render="false" id="s_com_infy_entities_AntDirectory_groupId" object="${antdirectory}" z="q+eURtEhuwPBvj+DB8o262+KVDc="/>
+        <field:display field="versionId" render="false" id="s_com_infy_entities_AntDirectory_versionId" object="${antdirectory}" z="ns0jXv7bZ+1LGNlnbKE2TBeFPVk="/>
+        <field:display field="mvnFolderPath" render="false" id="s_com_infy_entities_AntDirectory_mvnFolderPath" object="${antdirectory}" z="3eiEjZ4mqv46HEU4WyXRWZHmDR0="/>
+    <br/>
+    </page:show>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:success id="ps_com_infy_entities_AntDirectory"
+		object="${antdirectory}" path="/antdirectorys"
+		z="qa503RMDAVb+QVaPSyP5SD1Lryg=">
+
+		<h1>Successfully migrated from ANT to MAVEN..</h1>
+		Your Maven project is available Here... .
+		<a  href="/AntToMaven/antdirectorys?download">Please click to download</a>
+		
+		<IMG alt="success" src="../images/success.png"
+			style="height: 90px; width: 100px;margin-left:-350px; margin-top:-20px"></IMG>
+			<br/>
+	</page:success>
+	<br />
+	<br />
+</div>

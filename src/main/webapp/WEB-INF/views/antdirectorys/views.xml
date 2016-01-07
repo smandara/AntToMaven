@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="public" name="antdirectorys/list">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/list.jspx" />
+	</definition>
+	<definition extends="public" name="antdirectorys/show">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/show.jspx" />
+	</definition>
+	<definition extends="public" name="antdirectorys/create">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/create.jsp" />
+	</definition>
+	<definition extends="public" name="antdirectorys/update">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/update.jspx" />
+	</definition>
+
+	<definition extends="public" name="antdirectorys/success">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/Success.jspx" />
+	</definition>
+
+<definition extends="default" name="antdirectorys/artifacts">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/artifacts.jsp" />
+	</definition>
+
+	<definition extends="default" name="antdirectorys/upload">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/uploadFile.jsp" />
+	</definition>
+	
+	<definition extends="default" name="antdirectorys/error">
+		<put-attribute name="body"
+			value="/WEB-INF/views/antdirectorys/Error.jsp" />
+	</definition>
+
+
+</tiles-definitions>

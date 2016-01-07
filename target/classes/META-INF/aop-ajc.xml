@@ -1,0 +1,12 @@
+<aspectj>
+<aspects>
+<aspect name="com.infy.controllers.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.infy.entities.AntDirectory_Roo_JavaBean"/>
+<aspect name="com.infy.entities.AntDirectory_Roo_Configurable"/>
+<aspect name="com.infy.entities.AntDirectory_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.infy.controllers.AntDirectoryController_Roo_Controller"/>
+<aspect name="com.infy.entities.AntDirectory_Roo_ToString"/>
+<aspect name="com.infy.entities.AntDirectory_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+
