@@ -116,15 +116,16 @@ label {
 	margin-top: 0px;
 }
 
-
 input#demo    {
 width:145px;
 height:32px;
 background:url(../images/viewDemo.png) no-repeat;
 
 }
-
-
+input#next    {
+width: 85px;
+height: 25px;
+}
 
 input {
 	height:20px;

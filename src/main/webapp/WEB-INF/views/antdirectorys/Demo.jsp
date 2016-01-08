@@ -14,7 +14,7 @@
 		
 <%
 String browser=request.getHeader("user-agent");
-
+out.println("browser :: "+browser);
 
  if(browser != null ){
     	
@@ -33,7 +33,7 @@ String browser=request.getHeader("user-agent");
         else  if(browser.indexOf("Mozilla")!=-1)
         {
         	%> <script> 
-        	var ask = window.confirm("Please use Google Chrome or IE to play the video");
+        	var ask = window.confirm("Please use Google Chrome to play the video");
         	if(ask)
         	document.location.href = "/AntToMaven";
         	</script>

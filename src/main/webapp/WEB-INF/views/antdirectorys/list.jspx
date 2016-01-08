@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_infy_entities_AntDirectory" items="${antdirectorys}" z="bxP6hAUUN7uW7mh6m3Vwg1fXpYE=">
+        <table:table data="${antdirectorys}" id="l_com_infy_entities_AntDirectory" path="/antdirectorys" z="YeWU7Sm5TzRO8McePkloDWsmkHs=">
+            <table:column id="c_com_infy_entities_AntDirectory_folderPath" property="folderPath" z="Ep1k6xogoW2/CJ4sGcvAVT4+H0U="/>
+            <table:column id="c_com_infy_entities_AntDirectory_configSRC" property="configSRC" z="tCy0e4D8kNg9PTv0b6vFq0IIjrQ="/>
+            <table:column id="c_com_infy_entities_AntDirectory_configLib" property="configLib" z="ru9RVtEtPC/bgDnLdIz9apYdOlk="/>
+            <table:column id="c_com_infy_entities_AntDirectory_configTestpath" property="configTestpath" z="73mk5DHxnN8yrQRgx7W9jugZFzw="/>
+            <table:column id="c_com_infy_entities_AntDirectory_artifactId" property="artifactId" z="OChewsKetgVdgVQLBamSnklCldw="/>
+            <table:column id="c_com_infy_entities_AntDirectory_groupId" property="groupId" z="e7VAsUqxVOuMvEhrE6oJnHFyIRA="/>
+        </table:table>
+    </page:list>
+</div>

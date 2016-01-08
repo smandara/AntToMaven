@@ -6,7 +6,7 @@
         <menu:category id="c_antdirectory" z="ebvpo6C0fFfxGkZvhL8fer+0YoM=">
             <menu:item id="i_antdirectory_new" messageCode="global_menu_new" url="/antdirectorys?form" z="yQYInpdNgFXvUNV7WC7Fc0bklyY="/>
             <menu:item id="i_antdirectory_artifact" messageCode="global_menu_artifact" url="/antdirectorys?artifacts" z="user-managed"/>
-            <menu:item render="false" id="i_antdirectory_list" messageCode="global_menu_list" url="/antdirectorys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QfAo3U1uFAHCHtvC95dpgKJquFc="/>
+            <menu:item id="i_antdirectory_list" messageCode="global_menu_list" render="false" url="/antdirectorys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
         </menu:category>
     </menu:menu>
 </div>
