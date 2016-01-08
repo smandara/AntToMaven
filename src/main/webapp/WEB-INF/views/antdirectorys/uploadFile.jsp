@@ -7,6 +7,7 @@
 	<jsp:directive.page
 		import="org.springframework.context.annotation.Import" />
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+<br/>
 
 	<div>
 		<form action="${form_url}?upload" method="post"
@@ -14,11 +15,11 @@
 			<table>
 				<tr>
 					<td>Please Upload the Ant Project Folder Here (.zip format)</td>
-					<td><input type="file" name="file" /></td>
+					<td><input type="file" name="file" style="width:260px;"/></td>
+					<td><input type="submit" value="Upload" style="width: 100px; margin-left:0px" /></td>
 				</tr>
-				
 			</table>
-			<br/>		
-				<input type="submit" value="upload" style="width: 150px; margin-left: 522px" />
+				
+				
 		</form>
-	</div>
+	</div><BR /><br/><BR /><br/>
