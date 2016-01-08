@@ -8,13 +8,13 @@
 		object="${antdirectory}" path="/antdirectorys"
 		z="qa503RMDAVb+QVaPSyP5SD1Lryg=">
 
-		<h1>Successfully migrated from ANT to MAVEN..</h1>
+		<p style="font-size: 20px"><b>Successfully migrated from ANT to MAVEN..</b></p>
 		Your Maven project is available Here... .
 		<a  href="/AntToMaven/antdirectorys?download">Please click to download</a>
 		
 		<IMG alt="success" src="../images/success.png"
 			style="height: 90px; width: 100px;margin-left:-350px; margin-top:-20px"></IMG>
-			<br/>
+			<br/><br/>
 	</page:success>
 	<br />
 	<br />

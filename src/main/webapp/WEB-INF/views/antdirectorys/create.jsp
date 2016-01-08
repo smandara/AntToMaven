@@ -36,6 +36,7 @@
 				document
 						.getElementById("com_infy_entities_AntDirectory_configTestpath").style.display = 'block';
 				document.getElementById("test").style.display = 'block';
+				
 
 			}
 		}
@@ -117,7 +118,7 @@
 			</tr>
 
 		</table>
-		<input type="submit"  value="Next" id="next" />
+		<input type="submit" value="Next"  style="width: 90px;height: 30px;background-color:#1F497D; color:white;font-size:17px; " />
 	</form:form>
 
 

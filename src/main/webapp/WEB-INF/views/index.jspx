@@ -7,14 +7,14 @@
   <util:panel id="title" title="${title}">
     <h3>
       <spring:message code="welcome_h3" arguments="${app_name}" />
-      <a  href="/AntToMaven/antdirectorys?demo" target="_blank" style="margin-left: 400px;">View Demo >></a>
+      <a  href="/AntToMaven/antdirectorys?demo" style="margin-left: 400px;">View Demo >></a>
     </h3>
     <p>
       <spring:message code="welcome_text" /> 
       <br/>
       <br/>
       <p>
-         <a  href="/AntToMaven/antdirectorys?form"><input type="button" id="search" name="submit" alt="search" value="" /></a>
+         <a  href="/AntToMaven/antdirectorys?form"><input type="button" id="search" name="submit" alt="search" value="Get Started" style="width: 150px;height: 30px;background-color:#1F497D; color:white;font-size:18px;"/></a>
 
      </p>
     </p>

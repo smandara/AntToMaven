@@ -15,8 +15,9 @@
 			<table>
 				<tr>
 					<td>Please Upload the Ant Project Folder Here (.zip format)</td>
-					<td><input type="file" name="file" style="width:260px;"/></td>
-					<td><input type="submit" value="Upload" style="width: 100px; margin-left:0px" /></td>
+					<td><input type="file" name="file" style="width:260px; height:23px" required="required"/></td>
+					<td>
+					<input type="submit" value="Upload" id="upload" style="margin-left:0px ; width: 90px;height: 30px;background-color:#1F497D; color:white;font-size:17px;" /></td>
 				</tr>
 			</table>
 				

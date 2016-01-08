@@ -76,6 +76,7 @@
 
 		<spring:message arguments="${label}" code="entity_show"
 			var="title_msg" htmlEscape="false" />
+		
 		<util:panel id="${id}" title="${title_msg}" openPane="${openPane}">
 			<c:choose>
 				<c:when test="${not empty object}">
@@ -90,8 +91,8 @@
 									var="update_image_url" />
 								<spring:message arguments="${typeName}" code="entity_update"
 									var="update_label" htmlEscape="false" />
-								<input type="button" value="Cancel"
-									onclick="window.location='${update_form_url}';" style="width: 85px;height: 25px"></input>
+								<input type="button" value="Cancel" id="cancel"
+									onclick="window.location='${update_form_url}';" style="width: 90px;height: 30px;background-color:#1F497D; color:white; font-size:15px; "></input>
 									<input type="hidden" /> 
 							</c:if>
 						</span> <span> <c:if test="${update}">
@@ -102,8 +103,9 @@
 									var="update_image_url" />
 								<spring:message arguments="${typeName}" code="entity_update"
 									var="update_label" htmlEscape="false" />
-								<input id="submit" type="button" value="Submit" onsubmit=""
-									onclick="window.location='${submit_form_url}';onscreen();" style="width: 85px;height: 25px"></input>
+								
+								<input id="submit" type="button" value="Submit"  onsubmit=""
+									onclick="window.location='${submit_form_url}';onscreen();" style="width: 90px;height: 30px;background-color:#1F497D; color:white ;font-size:15px;"></input>
 							</c:if>
 						</span>
 
@@ -115,18 +117,7 @@
 					<div id="fountainTextG_1"><img src="../images/ajax-loader (1).gif" class="spinner" alt="loading" /></div>	
 					</div>
 					
-					<!-- <div id="fountainTextG" style="display: none">
-						<div id="fountainTextG_1" class="fountainTextG">P</div>
-						<div id="fountainTextG_2" class="fountainTextG">r</div>
-						<div id="fountainTextG_3" class="fountainTextG">o</div>
-						<div id="fountainTextG_4" class="fountainTextG">c</div>
-						<div id="fountainTextG_5" class="fountainTextG">e</div>
-						<div id="fountainTextG_6" class="fountainTextG">s</div>
-						<div id="fountainTextG_7" class="fountainTextG">s</div>
-						<div id="fountainTextG_5" class="fountainTextG">i</div>
-						<div id="fountainTextG_6" class="fountainTextG">n</div>
-						<div id="fountainTextG_7" class="fountainTextG">g</div>
-					</div> -->
+				
 
 				</c:when>
 				<c:otherwise>
