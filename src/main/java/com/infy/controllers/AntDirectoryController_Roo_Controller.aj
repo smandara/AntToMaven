@@ -67,6 +67,10 @@ privileged aspect AntDirectoryController_Roo_Controller {
 		return "antdirectorys/upload";
 	}
 
+	@RequestMapping(params = "demo", produces = "text/html")
+	public String AntDirectoryController.showDemo(Model uiModel) {
+		return "antdirectorys/demo";
+	}
 		
 	@RequestMapping(value = "/{id}", produces = "text/html")
 	public String AntDirectoryController.show(@PathVariable("id") Long id, Model uiModel) {
