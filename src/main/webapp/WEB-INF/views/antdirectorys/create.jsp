@@ -65,7 +65,6 @@
 	
 	</script>
 
-    <a  href="FAQ.jsp" target="_blank" style="text-align: right;margin-left:620px ;">FAQ</a>    <a href="Help.jsp"  target="_blank">HELP</a>
 	<br/><br/>
 	<form:form modelAttribute="antDirectory" path="/antdirectorys"
 		method="POST" action="${form_url}?create">
