@@ -10,25 +10,7 @@
 <script type="text/javascript" src="../jquery-1.11.3.js"></script>
 	<script type="text/javascript">
 		
-		/* function showSrc() {
-
-			var renderVal = document.getElementById(
-					"com_infy_entities_AntDirectory_folderPath").getAttribute(
-					"render");
-
-			if (renderVal) {
-
-				document
-						.getElementById("com_infy_entities_AntDirectory_configSRC").style.display = 'block';
-				document.getElementById("source").style.display = 'block';
-			
-				
-
-			}
-
-		} */
-
-		function showTest() {
+	function showTest() {
 			var renderValSrc = document.getElementById(
 					"com_infy_entities_AntDirectory_configSRC").getAttribute(
 					"render");
@@ -71,13 +53,11 @@
 		method="POST" action="${form_url}?create">
 		<table border="0px	">
 			<tr border="0">
-				<td><label> Uploaded Ant Project </label></td>
-				<td><form:input id="com_infy_entities_AntDirectory_folderPath"
-						required="true" render="true" path="folderPath"
-					 readonly="true"	/></td>
-						
-						
-			</tr>
+			
+				<form:input id="com_infy_entities_AntDirectory_folderPath"
+						required="true" render="false" path="folderPath"
+					 readonly="true"  style="display:none"	/>
+		</tr>
 			<tr border="0">
 				<td>
 				<label id="source" >Source folder with reference to ANT Project path
