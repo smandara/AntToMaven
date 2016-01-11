@@ -3,7 +3,6 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_infy_entities_AntDirectory" object="${antdirectory}" path="/antdirectorys" z="qa503RMDAVb+QVaPSyP5SD1Lryg=">
-        <field:display field="folderPath" id="s_com_infy_entities_AntDirectory_folderPath" object="${antdirectory}" z="2QFa5+bHN3Yj++rxASdx7dcipt0="/>
         <br/>
         <field:display field="configSRC" id="s_com_infy_entities_AntDirectory_configSRC" object="${antdirectory}" z="lZ3RMSaCgTLwJrQUvexHwJsFYw8="/>
        <br/>
