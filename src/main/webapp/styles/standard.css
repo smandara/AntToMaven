@@ -1,5 +1,20 @@
 /* main elements */
 
+#index
+{
+	
+    display: block;
+    width: 150px;
+    height: 32px;
+    background:#1F497D;
+    font-size:20px;
+    padding-top:5px;
+    text-align:center;
+    font-family: inherit,Cursive, Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+}
 body,div,td {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;

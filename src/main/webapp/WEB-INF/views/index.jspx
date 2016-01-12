@@ -14,7 +14,7 @@
       <br/>
       <br/>
       <p>
-         <a  href="/AntToMaven/antdirectorys?uploadPage"><input type="button"  name="submit" alt="search" value="Get Started" style="width: 150px;height: 30px;background-color:#1F497D; color:white;font-size:18px;"/></a>
+         <a  href="/AntToMaven/antdirectorys?uploadPage" id="index">Get Started</a>
 
      </p>
     </p>
