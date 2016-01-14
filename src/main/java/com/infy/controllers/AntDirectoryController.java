@@ -129,7 +129,7 @@ public class AntDirectoryController {
 	 		}else
 	 			FileUtils.cleanDirectory(f);
 			}catch(IOException e){
-				e.printStackTrace();
+				return "antdirectorys/error";
 			}
 		String projectName = null;
 		uiModel.addAttribute("antdirectory", AntDirectory.findAntDirectory(id));
@@ -146,7 +146,7 @@ public class AntDirectoryController {
 		antresources.put("groupId", antDirectory.getGroupId());
 		antresources.put("artifactId", antDirectory.getArtifactId());
 		antresources.put("versionId", antDirectory.getVersionId());
-
+		System.out.println("ant folder path" + antresources.get(com.infy.constants.AntDirectory.PROJECT_FOLDER.toString()));
 
 		System.out.println("In submit method");
 		System.out.println("TESt"+antresources.get(com.infy.constants.AntDirectory.TESTSRC.toString()));
@@ -204,6 +204,9 @@ public class AntDirectoryController {
 		    out.write(i); 
 		  } 
 		  fileInputStream.close(); 
+		  
+	//	  Runtime.getRuntime().exec("cmd /c start build.bat");
+		  
 		  out.flush();
 		  out.close();
 		   

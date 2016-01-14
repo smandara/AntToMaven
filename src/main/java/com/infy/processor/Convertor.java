@@ -98,12 +98,17 @@ public class Convertor {
 		copyFiles(antDirList, mavenSrcResDir, "properties");
 
 		// Copying the Test Cases
+		
+		
 		String antTestDir = antProjectFolder + "//"
 				+ antResources.get(AntDirectory.TESTSRC.toString());
-		String mavenTestDir = mavenProjectFolder
+		
+		if(antTestDir!=null){
+		String mavenTestDir = mavenProjectFolder                                 //Added to remove mandatory field of test folder
 				+ mavenResources.getString(MavenDirectory.SRC_TEST_JAVA
 						.toString());
-		copyFiles(antTestDir, mavenTestDir, "java");
+		copyFiles(antTestDir, mavenTestDir, "java");}
+		
 
 		// Copying the properties referred in Test Cases
 		String mavenTestResDir = mavenProjectFolder
@@ -117,6 +122,7 @@ public class Convertor {
 				+ mavenResources.getString(MavenDirectory.SRC_MAIN_WEBAPP
 						.toString());
 		String arr[] = new String[]{"jar","class"};
+		System.out.println("antWebDIr :: "+antWebDir);
 		copyFilesExclusion(antWebDir, mavenWebDir,arr);
 
 		String antLibDir = antProjectFolder + "//"
@@ -155,6 +161,8 @@ public class Convertor {
 	}
 
 	public void copyFilesExclusion(String antDir, String mavenDir,String...exts) throws Exception{
+
+		System.out.println("antWebDIr :: "+antDir);
 
 		File antFile = new File(antDir);
 
