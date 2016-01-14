@@ -60,29 +60,20 @@
 		</tr>
 			<tr border="0">
 				<td>
-				<label id="source" >Source folder with reference to ANT Project path
-						(For multiple source folders specify the folders seperated by comma Ex: src,src2)
-						</label></td>
+				<label id="source" >Source folder with reference to ANT Project path&nbsp;<FONT color="red">*</FONT>
+						<br/>(For multiple source folders specify the folders seperated by comma Ex: src,src2)
+						</label>  </td>
 				<td><form:input id="com_infy_entities_AntDirectory_configSRC"
 						render="true" required="true" path="configSRC"
-						 onchange="showTest();" ></form:input></td>
+						 onchange="showWeb();" ></form:input> </td>
 					
 			
 			</tr>
 				
-			<tr border="0">
-				<td><label id="test" style="display: none">Test case
-						Folder with reference to ANT Project  path </label></td>
-
-				<td><form:input
-						id="com_infy_entities_AntDirectory_configTestpath" required="true"
-						render="true" path="configTestpath" style="display:none"
-						onchange="showWeb();"></form:input></td>
-			
-			</tr>
+			<tr border="0"> <td border="0"></td><td border="0"></td></tr>
 			<tr border="0">
 				<td><label id="Web" style="display: none">WebContent
-						Folder with reference to ANT Project  path </label></td>
+						Folder with reference to ANT Project  path &nbsp;<FONT color="red">*</FONT> </label></td>
 				<td><form:input
 						id="com_infy_entities_AntDirectory_configWebSrc" required="true"
 						render="true" path="configWebSrc" style="display:none"
@@ -91,9 +82,19 @@
 			</tr>
 			<tr border="0">
 				<td><label id="lib" style="display: none">Lib 
-						Folder with reference to ANT Project  path</label></td>
+						Folder with reference to ANT Project <br/> path &nbsp; <FONT color="red">*</FONT></label> </td>
 				<td><form:input id="com_infy_entities_AntDirectory_configLib"
-						required="true" path="configLib" style="display:none"></form:input></td>
+						required="true" path="configLib" style="display:none" onchange="showTest();"></form:input></td>
+			
+			</tr>
+			
+			<tr border="0">
+				<td><label id="test" style="display: none">Test case
+						Folder with reference to ANT Project  path </label></td>
+
+				<td><form:input
+						id="com_infy_entities_AntDirectory_configTestpath" 
+						render="true" path="configTestpath" style="display:none"></form:input></td>
 			
 			</tr>
 
